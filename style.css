@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;900&display=swap');
+
+* {
+    font-family: 'Koh Santepheap', cursive;
+}
+
+line.i {
+    stroke: blue;
+}
+line.f {
+    stroke: green;
+}
+line.w {
+    stroke: red;
+}
+line.s {
+    stroke: magenta;
+}
+line.r {
+    stroke: olive;
+}
+line {
+    stroke-opacity: .15;
+}
+
+text.cluster {
+    opacity: 0.1;
+}
+
+.node[data-cluster="0"] { fill: rgba(249, 65, 68, 1) }
+.node[data-cluster="1"] { fill: rgba(243, 114, 44, 1) }
+.node[data-cluster="2"] { fill: rgba(248, 150, 30, 1) }
+.node[data-cluster="3"] { fill: rgba(249, 132, 74, 1) }
+.node[data-cluster="4"] { fill: rgba(249, 199, 79, 1) }
+.node[data-cluster="5"] { fill: rgba(144, 190, 109, 1) }
+.node[data-cluster="6"] { fill: rgba(67, 170, 139, 1) }
+.node[data-cluster="7"] { fill: rgba(77, 144, 142, 1) }
+.node[data-cluster="8"] { fill: rgba(87, 117, 144, 1) }
+.node[data-cluster="9"] { fill: rgba(39, 125, 161, 1) }

@@ -24,4 +24,4 @@ $ python -m http.server
 
 **Done!**
 
-Now, navigate to [http://localhost:8000] to see the simple visualization.
+Now, navigate to [http://localhost:8000](http://localhost:8000) to see the simple visualization.
